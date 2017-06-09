@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--属性的集合，所有自定义控件的属性都会写在里面-->
+    <declare-styleable name="MyTextView">
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/><!--设置一个尺寸类型-->
+        <attr name="textColor" format="color"/>
+    </declare-styleable>
+    <!--name一般会和自定义控件名字一样-->
+    <declare-styleable name="MyCircleImageView">
+        <attr name="src" format="reference"/><!--引用类型-->
+    </declare-styleable>
+</resources>
